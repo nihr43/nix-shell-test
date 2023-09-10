@@ -2,6 +2,8 @@
   pkgs.mkShell {
     nativeBuildInputs = with pkgs.buildPackages; [
       iperf
-      net-tools
+      nettools
+      nmap
+      traceroute
     ];
 }
